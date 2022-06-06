@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "WanderOverYonder";
+  src: url("../fonts/WanderOverYonderRegular.ttf") format("truetype");
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.months {
+  width: 60%;
+  padding: 0 10px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-between; */
+  font-family: "WanderOverYonder";
+}
+
+.old {
+  display: none;
+}
+
+.title {
+  font-family: "WanderOverYonder";
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  color: aquamarine;
+  text-shadow: 1px 1px 2px black;
+}
+
+.day__link {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2f00ff6c;
+  margin: 10px;
+  border-radius: 50px;
+  color: aquamarine;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.materials__item {
+  list-style-type: none;
+}
+
+.materials__link {
+  text-decoration: none;
+  display: inline-block;
+  /* border: 1px solid aquamarine; */
+  border-radius: 5px;
+  background-color: rgba(127, 255, 212, 0.466);
+  padding: 3px;
+  margin-bottom: 5px;
+  color: #6f00ff;
+  /* text-shadow: 1px 1px 2px black; */
+}
+
+.study {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.day {
+  color: #b700ff;
+  color: rgba(0, 0, 0, 0.753);
+  text-shadow: none;
+}
+
+.stydy__frontend {
+  width: 50%;
+  height: 100vh;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: rgba(2, 40, 255, 0.05);
+}
+
+.study__english {
+  width: 50%;
+  display: inline-block;
+  background-color: rgba(255, 2, 192, 0.05);
+}
+
+ul {
+  padding: 0 50px;
+}
+
+.study__list-item {
+  padding: 10px;
+  list-style-type: disc;
+  font-family: sans-serif;
+}
+
+.study__list-item a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+.study__list-item a:hover {
+  color: #8c00ffcb;
+  border-bottom: 1px solid #8c00ffcb;
+}
+
+.study__bottom {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  bottom: 5px;
+  background-color: #8c00ffcb;
+  border-radius: 5px;
+}
+
+.study__bottom a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.time {
+  background: aquamarine;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 5px;
+  display: inline-block;
+}
